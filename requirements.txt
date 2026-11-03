@@ -1,0 +1,9 @@
+# MCP SDK pinned to the 1.x line: the API used here (mcp.server.lowlevel.Server,
+# request_handlers, stdio_server) matches the official docs and most examples.
+# mcp 2.x is a breaking rewrite (FastMCP -> MCPServer, new handler signatures).
+mcp>=1.9,<2
+pydantic>=2.7,<3
+anyio>=4
+
+# tests
+pytest>=8
